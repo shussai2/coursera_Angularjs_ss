@@ -1,0 +1,6 @@
+<h3>Items of category: {{itemsController.categoryCode}}</h3>
+<ul>
+  <li ng-repeat="item in itemsController.items" >
+    <b>{{ item.short_name }}</b> <b>{{ item.name }}:</b> {{ item.description }}
+  </li>
+</ul>
